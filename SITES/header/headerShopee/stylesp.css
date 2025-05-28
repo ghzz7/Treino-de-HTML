@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    width: 100%;
+    padding: 8px 60px;
+    background: linear-gradient(90deg, rgba(255, 100, 51, 1) 31%, rgba(253, 92, 50, 0.83) 57%, rgba(255, 100, 51, 1) 100%);
+}
+.primeiraDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primeiraDivfilho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primeiraDivfilho nav{
+    display: flex;
+    gap: 15px;
+}
+
+#link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#link a i {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 4px;
+    color: #f8482f;
+}
+
+#link a .estilodiferente{
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+}
+
+.segundaDivfilho{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.segundaDivMae{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+
+.inputs{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+.inputs input{
+    width: 800px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
